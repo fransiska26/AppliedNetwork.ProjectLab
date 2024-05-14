@@ -1,7 +1,7 @@
 # CAN Bus with DHT11 and DS18B20 with Arduino and Raspberry Pi
 
 ## Description
-The project involves gathering temperature and humidity data using a DHT11 sensor connected to an Arduino UNO. This data is then transmitted over a CAN bus. At the receiving end of the CAN bus, a Raspberry Pi processes the data and publishes it using the MQTT protocol. Additionally, the Raspberry Pi also collects data from the temperature sensor DS18B20.
+The project involves gathering temperature and humidity data using a DHT11 sensor connected to an Arduino UNO. This data is then transmitted over a CAN bus. At the receiving end of the CAN bus, a Raspberry Pi processes the data and publishes it using the MQTT protocol, with the broker setup on cloud in [MQTTHQ](https://mqtthq.com). Additionally, the Raspberry Pi also collects data from the temperature sensor DS18B20.
 
 ## Background
 This project is a part of a group project lab of the course Applied Network and Bus Technology for Automation and Control, in Rheinland-Pfälzische Technische Universität (RPTU) Kaiserslautern. The main goal is to demonstrate the ability to use different kinds of Bus Technologies. In this project there are three bus communication protocols used:
