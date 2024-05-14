@@ -44,6 +44,7 @@ The wiring in Raspberry Pi:
 ## Dependencies
 
 * Arduino MCP2515 library from [https://github.com/coryjfowler/MCP_CAN_lib](https://github.com/coryjfowler/MCP_CAN_lib).
+* Arduino DHT11 library from [https://github.com/adafruit/DHT-sensor-library](https://github.com/adafruit/DHT-sensor-library)
 * Installed in Raspberry Pi:
     * paho-mqtt
     * python-can 
